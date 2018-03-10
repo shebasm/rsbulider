@@ -1,0 +1,56 @@
+.mainDiv{
+  background:#34495E;
+  justify-content: space-between;
+}
+.leftDiv{
+  text-align: center;
+    position: fixed;
+    background: pink;
+    height: auto;
+    width: 25%;
+}
+.rightDiv{
+  margin-left: 26%;
+  background: #D7BDE2  ;
+  height: 100%;
+  width: 70%;
+  padding: 10px;
+}
+.image1
+{
+  width: 80%;
+  height: 20em;
+}
+@media all and (max-device-width:750px) {
+  body{
+    background: red;
+  }
+  .mainDiv{
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .leftDiv{
+    width: 100%;
+    position: relative;
+    display: flex;
+
+  }
+  .rightDiv{
+    width: 100%;
+    margin-left: 0%;
+  }
+}
+  @media all and (min-device-width:360px) and (max-device-width:499px){
+    .mainDiv{
+      background: #addeea;
+      width:100%;
+    }
+    .leftDiv{
+      width: 100%;
+      display: flex;
+    }
+    .rightDiv{
+      width: 100%;
+      margin-left: 0%;
+    }
+}
